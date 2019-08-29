@@ -1,1 +1,172 @@
-aa
+::placeholder{
+    padding-left:10px;
+}
+*:focus {
+    outline: none;
+}
+  .box{
+             height:841;
+             width:1200;
+             border:1px solid black;
+             margin:0 100 0 100;
+         }
+         .header{
+             height : 87;
+             width:100%;
+             background-color:#FFFFFF;
+             display:flex;
+             flex-direction: row;
+         }
+         .header1{
+             display:flex;
+             height:61;
+             width:1163;
+             margin-left:30px;
+             margin-top:25px;
+             flex-direction: row;
+         }
+         .searchHotles{
+             height:51;
+             width:548;
+             background-color: #F2F0F0;
+             font-size:15;
+             margin-top:3;
+             margin-bottom:7;
+             margin-left:179px;
+             border-radius: 20px;
+             border:none;
+         }
+         .body{
+             display:flex;
+             height:754;
+             width:100%;
+             background-color:brown;
+             flex-direction: row;
+         }
+         .menu{
+             height:100%;
+             width:226;
+             background-color:#333333;
+             overflow: hidden;
+         }
+        .menu a {
+            display: flex;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 20px 50px;
+            text-decoration: none;
+            font-size: 18px;
+            flex-direction:row;
+        }
+
+       .menu a:hover {
+            background-color: #ddd;
+            color: black;
+        } 
+
+        .menu a.active {
+            background-color: #EB2F64;
+            color: #FFFFFF;
+        }
+         .content{
+             display:flex;
+             height:100%;
+             width:974;
+             background-color:#FFFFFF;
+             flex-direction: column;
+         }
+         .contentImage{
+             display:flex;
+             width:100%;
+             height:165;
+             background-color:cornflowerblue;
+             flex-direction:row;
+         }
+         .content1{
+             display:flex;
+             width:100%;
+             height:55;
+             background-color:#FFFFFF;
+             flex-direction: row;
+         }
+         .button{
+             height:55;
+             width:65;
+             background-color:#EB2F64;
+         }
+         .content2{
+             display:flex;
+             width:100%;
+             height:400;
+             background-color:#FAF9F9;
+             flex-direction:row;
+         }
+         .contentLeft{
+             height:355;
+             width:515;
+             background-color:#FFFFFF;
+             margin:21;
+         }
+         .contentLeft1{
+             width:470;
+             height:111;
+             background-color:#FFFFFF;
+             margin:10 22;
+         }
+         .contentLeft2{
+             width:367;
+             height:76;
+             background-color:#FFFFFF;
+             margin-top:10;
+             margin-left:22;
+         }
+         .li{
+             display:block;
+             width:50%;
+             font-size:10;
+             float: left;
+         }
+         .contentLeft3{
+             font-size:12;
+             display:flex;
+             flex-direction: row;
+         }
+         .contentLeft31{
+            display:flex;
+             width:130;
+             height: 44;
+             
+             margin-left:42;
+             flex-direction: row;
+         }
+         .contentNight{
+            display:flex;
+             width:390;
+             height:355;
+             margin:21;
+             flex-direction:column;
+         }
+         .contentNight1{
+             display:flex;
+             width:348px;
+             height:140px;
+             margin-left:21px;
+             background-color:#FFFFFF;
+             flex-direction:column;
+         }
+         .contentNight2{
+             display:flex;
+            width:348px;
+            height:140px;
+            margin-left:21px;
+            margin-top:21;
+            background-color:#FFFFFF;
+            flex-direction:column;
+         }
+         .content3{
+             width:100%;
+             height:123;
+             margin-top:11;
+             text-align: center;
+
+         }
